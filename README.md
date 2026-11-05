@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Maniak Aksesoris
 
 Katalog penjualan aksesori seperti kalung, Pin Enamel, gelang, cincin, stiker, dan Key Chain. Dibuat dengan HTML, CSS, dan JavaScript murni tanpa proses build atau dependensi runtime.
@@ -35,3 +36,6 @@ python3 scripts/package_site.py
 ```
 
 Paket statis ada di `artifacts/maniak-aksesoris.zip`. Batas verifikasi dicatat di `verification.md`.
+=======
+# maniak-aksesoris
+>>>>>>> 298bf7984386d4ee8278243a48a212cf5ea1076e

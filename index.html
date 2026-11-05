@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#294a43">
+  <meta name="description" content="Temukan aksesori dengan karakter klasik dan sentuhan retro di Maniak Aksesoris.">
+  <title>Maniak Aksesoris — Gaya lama, semangat baru</title>
+  <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/styles.css">
+  <script type="module" src="js/app.js?v=8"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Lewati ke konten utama</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#beranda" aria-label="Maniak Aksesoris, beranda"><span class="brand-mark" aria-hidden="true">✦</span><span>MANIAK<span class="brand-sub">AKSESORIS · RETRO GOODS</span></span></a>
+      <nav aria-label="Navigasi utama"><a href="#katalog">Katalog</a><a href="#cara-belanja">Cara belanja</a><a href="#faq">FAQ</a></nav>
+      <a class="cart-link" href="#keranjang"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M5 8h14l1 12H4L5 8Z"/><path d="M8 9V6a4 4 0 0 1 8 0v3"/></svg><span>Keranjang</span><span id="cart-count" class="count">0</span></a>
+    </div>
+  </header>
+  <main id="main">
+    <section class="hero container" id="beranda" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="small-line"></span> DIBUAT UNTUK DIPAKAI, BUKAN SEKADAR DIPAJANG.</p>
+        <h1 id="hero-title">Gaya lama,<br><span>semangat baru.</span></h1>
+        <p class="hero-description">Temukan aksesori dengan nuansa retro dan karakter yang khas. Dari kalung dan gelang sampai Pin Enamel dan Key Chain—pilih favoritmu dan pesan langsung ke toko.</p>
+        <div class="hero-actions"><a class="button" href="#katalog">Lihat aksesori <span aria-hidden="true">↗</span></a><a class="text-link" href="#cara-belanja">Cara pesan <span aria-hidden="true">→</span></a></div>
+        <div class="hero-notes"><span><span aria-hidden="true">✓</span> Gaya klasik, pilihan berkarakter</span><span><span aria-hidden="true">✓</span> Detail unik untuk keseharian</span><span><span aria-hidden="true">✓</span> Pesan via WhatsApp</span></div>
+      </div>
+      <div class="hero-visual"><img src="image/hero.jpg" alt="Foto aksesori Maniak Aksesoris" width="960" height="1200" fetchpriority="high"><span class="visual-top">CLASSIC GOODS · EST. 2026</span></div>
+    </section>
+    <div class="intro-strip"><div class="container strip-inner"><span class="strip-label">MANIAK AKSESORIS · EST. 2026</span><span>20 aksesori pilihan</span><span>6 kategori</span><span>Pesan praktis via WhatsApp</span></div></div>
+    <section class="container catalog-section" id="katalog" aria-labelledby="catalog-heading">
+      <div class="section-heading"><div><p class="eyebrow">PILIHAN AKSESORI BERKARAKTER</p><h2 id="catalog-heading">Barang klasik, gaya personal.</h2></div><p>Rantai, gelang kulit, Pin Enamel, cincin signet,<br>dan detail retro untuk melengkapi gayamu.</p></div>
+      <p class="demo-note"><span aria-hidden="true">ⓘ</span> Produk dan harga adalah contoh. Ilustrasi dibuat khusus untuk katalog. Stok, ongkir, dan pembayaran dikonfirmasi toko.</p>
+      <div class="shop-layout">
+        <div class="catalog-content">
+          <div class="catalog-toolbar"><div class="search-wrap"><label class="sr-only" for="search">Cari nama produk</label><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="10" cy="10" r="6.5"/><path d="m15 15 5 5"/></svg><input id="search" type="search" placeholder="Cari rantai, gelang kulit, cincin…" autocomplete="off"></div><span id="result-count" class="result-count" role="status">20 produk</span></div>
+          <div id="category-filters" class="filters" role="group" aria-label="Filter kategori"></div>
+          <div id="product-grid" class="product-grid"></div>
+          <div id="no-results" class="empty-results" hidden><h3>Belum menemukan yang dicari?</h3><p>Coba nama aksesori lain atau tampilkan semua kategori.</p><button id="reset-filters" class="button secondary" type="button">Reset pencarian & filter</button></div>
+          <noscript><p class="notice">Aktifkan JavaScript untuk melihat produk, menggunakan keranjang, dan menyiapkan pesanan.</p></noscript>
+        </div>
+        <aside class="cart-panel" id="keranjang" aria-labelledby="cart-heading">
+          <div class="cart-title"><div><p class="eyebrow">PESANANMU</p><h2 id="cart-heading" tabindex="-1">Keranjang belanja</h2></div><span class="cart-symbol" aria-hidden="true">↗</span></div>
+          <p class="subtle">Atur produk dan jumlah sebelum memesan.</p>
+          <div id="cart-empty" class="cart-empty"><svg width="42" height="42" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M12 17h24l3 25H9l3-25Z"/><path d="M18 19v-8a6 6 0 0 1 12 0v8"/><path d="M19 29h10m-5-5v10"/></svg><p>Keranjangmu masih kosong.</p><span>Pilih aksesori untuk memulai pesanan.</span><a href="#product-grid" class="text-link">Lihat aksesori →</a></div>
+          <div id="cart-items"></div>
+          <form id="order-form" novalidate>
+            <div class="estimate-box"><div><span>Jumlah produk</span><strong id="cart-count-total">0 unit</strong></div><div class="total-row"><span>Total produk</span><strong id="order-total">Rp0</strong></div><p id="estimate-help">Tambahkan produk untuk melihat total.</p></div>
+            <fieldset><legend>Kontak pemesan</legend><div class="field"><label for="customer-name">Nama lengkap</label><input id="customer-name" type="text" autocomplete="name" minlength="2" maxlength="80" placeholder="Nama kamu" required aria-describedby="customer-name-error"><p id="customer-name-error" class="field-error"></p></div><div class="field"><label for="customer-phone">Nomor WhatsApp</label><input id="customer-phone" type="tel" autocomplete="tel" placeholder="08… atau 62…" required aria-describedby="phone-help customer-phone-error"><p id="phone-help" class="help">Untuk konfirmasi detail pesanan oleh toko.</p><p id="customer-phone-error" class="field-error"></p></div></fieldset>
+            <p id="form-error" class="field-error" role="alert"></p>
+            <button id="review-button" class="button full" type="submit" disabled>Pesan langsung via WhatsApp <span aria-hidden="true">↗</span></button>
+            <p class="help">Setelah tombol ditekan, WhatsApp terbuka dengan draf pesanan untuk toko. Periksa detailnya, lalu tekan kirim.</p>
+          </form>
+          <p id="unavailable-note" class="availability-note">Pemesanan via WhatsApp belum tersedia. Kamu tetap dapat menyusun keranjang dan melihat total produk.</p>
+          <p class="cart-footnote">Total belum termasuk ongkir atau biaya lain. Pesanan diproses setelah ketersediaan produk dan pembayaran dikonfirmasi toko.</p>
+        </aside>
+      </div>
+    </section>
+    <section id="cara-belanja" class="how-section" aria-labelledby="how-heading"><div class="container"><div class="section-heading"><div><p class="eyebrow">PESAN DENGAN MUDAH</p><h2 id="how-heading">Satu aksesori, banyak cerita.</h2></div><p>Tiga langkah sederhana<br>untuk menemukan favoritmu.</p></div><ol class="steps"><li><span class="step-number">01</span><h3>Pilih aksesori</h3><p>Jelajahi kategori dan tambahkan barang favoritmu ke keranjang.</p></li><li><span class="step-number">02</span><h3>Periksa pesanan</h3><p>Atur jumlah, periksa total produk, lalu isi nama dan kontakmu.</p></li><li><span class="step-number">03</span><h3>Konfirmasi dengan toko</h3><p>Buka draf pesanan di WhatsApp, periksa, lalu kirim. Toko akan mengonfirmasi stok, ongkir, dan pembayaran.</p></li></ol></div></section>
+    <section class="container faq-section" id="faq" aria-labelledby="faq-heading"><div><p class="eyebrow">SEBELUM MEMESAN</p><h2 id="faq-heading">Ada yang ingin<br>kamu tanyakan?</h2><p class="subtle">Beberapa hal yang perlu diketahui<br>sebelum berbelanja.</p><a class="text-link" href="#kontak">Informasi toko →</a></div><div class="faq-list"><details><summary>Bagaimana total pesanan dihitung?</summary><p>Total produk dihitung dari harga per unit dikalikan jumlah setiap produk. Ongkos kirim atau biaya lain belum termasuk dan akan dikonfirmasi toko.</p></details><details><summary>Apakah produk di katalog pasti tersedia?</summary><p>Katalog ini berisi produk dan harga contoh. Stok tidak diperbarui secara real-time. Toko akan mengonfirmasi ketersediaan saat kamu menghubungi mereka.</p></details><details><summary>Apakah pesanan langsung diproses setelah membuka WhatsApp?</summary><p>Belum. Membuka WhatsApp hanya menyiapkan draf pesan. Kirim pesan tersebut dan tunggu konfirmasi toko mengenai produk, ongkir, dan pembayaran.</p></details><details><summary>Apakah toko melayani pengiriman?</summary><p>Informasi pengiriman dan ongkos kirim perlu dikonfirmasi langsung kepada toko sebelum pembayaran.</p></details><details><summary>Bagaimana metode pembayarannya?</summary><p>Metode pembayaran dikonfirmasi oleh toko. Jangan melakukan pembayaran sebelum detail pesanan dan jumlah akhir disepakati.</p></details><details><summary>Apakah data kontak saya disimpan?</summary><p>Nama dan nomor kontak tidak disimpan oleh website. Keranjang disimpan di browser ini jika diizinkan. Ketika membuka WhatsApp, kontak dan rincian pesanan dimasukkan ke draf pesan.</p></details></div></section>
+    <section class="container contact-section" id="kontak" aria-labelledby="contact-heading"><div class="contact-stamp" aria-hidden="true">✦</div><div><p class="eyebrow">PILIH AKSESMU, TEGASKAN GAYAMU</p><h2 id="contact-heading">Klasik, khas, dan selalu relevan.</h2><p id="business-contact">Informasi kontak, lokasi toko, dan jam operasional akan tersedia setelah dikonfirmasi pemilik.</p></div><a class="button light" href="#katalog">Pilih aksesori <span aria-hidden="true">↗</span></a></section>
+  </main>
+  <footer class="container site-footer">
+    <div class="footer-identity">
+      <a class="brand footer-brand" href="#beranda"><span class="brand-mark" aria-hidden="true">✦</span><span>MANIAK<span class="brand-sub">AKSESORIS · RETRO GOODS</span></span></a>
+      <p>Gaya lama, semangat baru.</p>
+    </div>
+    <div class="footer-location" id="footer-location">
+      <h2>Informasi toko</h2>
+      <address id="footer-address"></address>
+      <p id="footer-address-note" hidden>Alamat contoh untuk demonstrasi website.</p>
+    </div>
+    <span>© <span id="year">2026</span> Maniak Aksesoris · Katalog contoh</span>
+  </footer>
+  <div id="status-message" class="toast" role="status" aria-live="polite"></div>
+  <p id="storage-warning" class="storage-warning" role="status" hidden>Keranjang dapat digunakan, tetapi belum bisa disimpan pada browser ini.</p>
+</body>
+</html>

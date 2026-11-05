@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 533" fill="none">
+  <defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#C8B897"/><stop offset="1" stop-color="#59634F"/></linearGradient><linearGradient id="cord" x2="1" y2="1"><stop stop-color="#66734E"/><stop offset="1" stop-color="#293A30"/></linearGradient></defs>
+  <path fill="url(#bg)" d="M0 0h800v533H0z"/><ellipse cx="400" cy="266" rx="260" ry="208" fill="#F4ECD9" opacity=".14"/>
+  <ellipse cx="400" cy="267" rx="191" ry="126" transform="rotate(-16 400 267)" stroke="#1E2C25" stroke-width="90"/><ellipse cx="400" cy="267" rx="191" ry="126" transform="rotate(-16 400 267)" stroke="url(#cord)" stroke-width="68"/>
+  <g stroke="#89906D" stroke-width="13" stroke-linecap="round"><path d="m231 193 62 91m-25-123 64 96m-19-119 62 96m-11-116 59 99m-5-111 56 98m6-106 49 90"/><path d="m267 366 66-91m-29 122 67-96m-21 118 65-96m-12 115 61-99m-7 111 57-98m5 104 50-90"/></g>
+  <rect x="356" y="377" width="93" height="54" rx="11" fill="#303B34" stroke="#C1A66E" stroke-width="8" transform="rotate(-16 356 377)"/><path d="m400 387 9 15 18 2-13 12 3 18-17-9-17 9 3-18-13-12 18-2 9-15Z" fill="#C1A66E"/>
+</svg>

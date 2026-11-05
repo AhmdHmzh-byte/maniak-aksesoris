@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 533" fill="none">
+  <defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#BDAE91"/><stop offset="1" stop-color="#46584E"/></linearGradient></defs>
+  <path fill="url(#bg)" d="M0 0h800v533H0z"/><circle cx="400" cy="266" r="205" fill="#F4ECD9" opacity=".15"/>
+  <path d="M400 418 205 247c-86-92 35-202 126-119l69 65 69-65c91-83 212 27 126 119L400 418Z" fill="#354941" stroke="#D6A84A" stroke-width="16" stroke-linejoin="round"/>
+  <path d="M400 388 230 238c-66-72 27-153 94-92l76 70 76-70c67-61 160 20 94 92L400 388Z" fill="#A65D3A" stroke="#F4ECD9" stroke-width="6" stroke-linejoin="round"/>
+  <text x="400" y="255" fill="#F4ECD9" font-family="Georgia,serif" font-size="35" font-weight="bold" letter-spacing="3" text-anchor="middle">I LOVE</text><text x="400" y="309" fill="#F4ECD9" font-family="Georgia,serif" font-size="47" font-weight="bold" letter-spacing="5" text-anchor="middle">MOM</text>
+</svg>

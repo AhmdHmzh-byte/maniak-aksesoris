@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 533" fill="none">
+  <defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#CBB994"/><stop offset="1" stop-color="#4D5C53"/></linearGradient><linearGradient id="card" x2="1" y2="1"><stop stop-color="#355B61"/><stop offset="1" stop-color="#172D32"/></linearGradient></defs>
+  <path fill="url(#bg)" d="M0 0h800v533H0z"/><circle cx="400" cy="266" r="205" fill="#F4ECD9" opacity=".16"/>
+  <circle cx="400" cy="105" r="48" stroke="#273630" stroke-width="22"/><circle cx="400" cy="105" r="34" stroke="#D4D5C9" stroke-width="9"/><path d="M400 153v28" stroke="#A9AFA7" stroke-width="13"/>
+  <rect x="287" y="176" width="226" height="288" rx="22" fill="#202C28" stroke="#D6A84A" stroke-width="12" transform="rotate(-5 287 176)"/>
+  <rect x="309" y="198" width="182" height="241" rx="12" fill="url(#card)" stroke="#D4D5C9" stroke-width="5" transform="rotate(-5 309 198)"/>
+  <rect x="334" y="221" width="128" height="116" rx="9" fill="#1C3437" stroke="#B49B68" stroke-width="6" transform="rotate(-5 334 221)"/>
+  <path d="m400 243 34 35-24 47h-34l-24-47 34-35 7-25 7 25Z" fill="#9A7047" stroke="#D8C69D" stroke-width="5" stroke-linejoin="round" transform="rotate(-5 400 285)"/>
+  <path d="M343 366h118m-111 22h105m-98 22h91" stroke="#D5C7A7" stroke-width="7" stroke-linecap="round" transform="rotate(-5 400 388)"/>
+</svg>

@@ -1,0 +1,11 @@
+{
+  "name": "maniak-aksesoris",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Katalog penjualan aksesori seperti perhiasan, Pin Enamel, stiker, dan Key Chain",
+  "scripts": {
+    "test": "node --test tests/*.test.js",
+    "package": "python3 scripts/package_site.py"
+  }
+}

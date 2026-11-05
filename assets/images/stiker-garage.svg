@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 533" fill="none">
+  <defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#E8D9B8"/><stop offset="1" stop-color="#B9A37E"/></linearGradient></defs>
+  <path fill="url(#bg)" d="M0 0h800v533H0z"/><rect x="179" y="70" width="442" height="393" rx="8" fill="#F4ECD9" stroke="#354A43" stroke-width="9" transform="rotate(-4 179 70)"/>
+  <g transform="rotate(-4 400 266)"><rect x="231" y="115" width="166" height="112" rx="8" fill="#A65D3A"/><text x="314" y="164" fill="#F4ECD9" font-family="Georgia,serif" font-size="24" font-weight="bold" text-anchor="middle">GARAGE</text><text x="314" y="195" fill="#F4ECD9" font-family="Arial,sans-serif" font-size="15" letter-spacing="4" text-anchor="middle">CLASSICS</text>
+  <circle cx="496" cy="169" r="53" fill="#354A43"/><path d="m496 133 11 24 27 4-19 18 5 27-24-13-24 13 5-27-19-18 27-4 11-24Z" fill="#D6A84A"/>
+  <rect x="238" y="272" width="155" height="113" rx="56" fill="#354A43"/><text x="315" y="340" fill="#F4ECD9" font-family="Georgia,serif" font-size="24" font-weight="bold" text-anchor="middle">MOTOR</text>
+  <path d="M453 287h93l17 22v65H436v-65l17-22Z" fill="#D6A84A"/><text x="500" y="343" fill="#263B35" font-family="Arial,sans-serif" font-size="20" font-weight="bold" text-anchor="middle">EST. 76</text></g>
+</svg>

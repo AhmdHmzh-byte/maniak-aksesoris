@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 533" fill="none">
+  <defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#45574E"/><stop offset="1" stop-color="#263A34"/></linearGradient><linearGradient id="titanium" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#F0EEE4"/><stop offset=".28" stop-color="#9FA9A2"/><stop offset=".57" stop-color="#505E57"/><stop offset=".82" stop-color="#C5C9BF"/><stop offset="1" stop-color="#6E7A72"/></linearGradient></defs>
+  <path fill="url(#bg)" d="M0 0h800v533H0z"/><circle cx="400" cy="267" r="206" fill="#F4ECD9" opacity=".08"/>
+  <ellipse cx="400" cy="274" rx="199" ry="116" transform="rotate(-12 400 274)" fill="url(#titanium)" stroke="#293631" stroke-width="10"/>
+  <ellipse cx="400" cy="274" rx="125" ry="60" transform="rotate(-12 400 274)" fill="#344740" stroke="#D6D5C9" stroke-width="11"/>
+  <path d="M237 240c54-44 105-68 165-78m-148 118c56-43 116-66 177-76" stroke="#F3F0E7" stroke-width="5" opacity=".65" stroke-linecap="round"/>
+</svg>

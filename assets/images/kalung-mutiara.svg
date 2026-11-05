@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 533" fill="none">
+  <defs><linearGradient id="b" x1="72" y1="22" x2="721" y2="514"><stop stop-color="#E8E0F1"/><stop offset="1" stop-color="#F8E7DE"/></linearGradient><radialGradient id="p" cx="0" cy="0" r="1" gradientTransform="matrix(13 19 -19 13 0 0)" gradientUnits="userSpaceOnUse"><stop stop-color="white"/><stop offset="1" stop-color="#D7C9D5"/></radialGradient></defs>
+  <path fill="url(#b)" d="M0 0h800v533H0z"/><circle cx="400" cy="255" r="194" fill="#FCF8F2" opacity=".55"/>
+  <path d="M216 131c0 150 75 238 184 286 109-48 184-136 184-286" stroke="#B98A66" stroke-width="5"/>
+  <g fill="url(#p)" stroke="#CDBFC9" stroke-width="2">
+    <circle cx="216" cy="131" r="14"/><circle cx="235" cy="204" r="14"/><circle cx="268" cy="264" r="14"/><circle cx="309" cy="315" r="14"/><circle cx="357" cy="357" r="14"/><circle cx="400" cy="374" r="15"/><circle cx="443" cy="357" r="14"/><circle cx="491" cy="315" r="14"/><circle cx="532" cy="264" r="14"/><circle cx="565" cy="204" r="14"/><circle cx="584" cy="131" r="14"/>
+  </g><path d="m400 388 10 16 19 3-14 13 3 19-18-9-17 9 3-19-15-13 20-3 9-16Z" fill="#EBAA98" stroke="#B97870" stroke-width="3"/>
+</svg>

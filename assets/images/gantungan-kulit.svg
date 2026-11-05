@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 533" fill="none">
+  <defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#D8C8A8"/><stop offset="1" stop-color="#8E927D"/></linearGradient><linearGradient id="leather" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#B66D43"/><stop offset="1" stop-color="#603A2B"/></linearGradient></defs>
+  <path fill="url(#bg)" d="M0 0h800v533H0z"/><circle cx="400" cy="266" r="210" fill="#F4ECD9" opacity=".32"/>
+  <circle cx="402" cy="139" r="78" stroke="#34443E" stroke-width="19"/><circle cx="402" cy="139" r="58" stroke="#C4C9BC" stroke-width="7"/>
+  <path d="M378 198h48l18 43-20 173c-4 35-39 57-70 39-21-12-30-34-25-58l31-159 18-38Z" fill="url(#leather)" stroke="#4A352A" stroke-width="12" stroke-linejoin="round"/>
+  <path d="m382 221-36 200m78-199-23 209" stroke="#D59A6E" stroke-width="5" stroke-dasharray="7 12" stroke-linecap="round"/>
+  <rect x="363" y="281" width="87" height="66" rx="5" transform="rotate(8 363 281)" fill="#293D38" stroke="#D6A84A" stroke-width="6"/>
+  <path d="m400 294 8 15 17 2-12 11 3 17-16-8-15 8 3-17-12-11 17-2 7-15Z" fill="#D6A84A"/>
+</svg>
